@@ -94,7 +94,7 @@ def file_writer(gall, nick_list, page_num):
     f = open(file_name, 'w')
     f.write("갤창랭킹 made by hanel2527, 마이 리틀 포니 갤러리\n")
     total = page_num*49
-    f.write("총 글수: %d" %total)
+    f.write("총 글수: %d\n" %total)
     f.write("랭킹\t닉\t글 수\t갤 지분(%)\n")
 
     for i in range(len(nick_list)):
