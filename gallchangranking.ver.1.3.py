@@ -136,8 +136,10 @@ def edit_nick():
     file_writer(gall, nick_list)
     f.close()
     original = re.findall("^edit_(.*\.txt)", file_name)[0]
-    os.remove(original)     #원본파일 삭제
-    os.remove(file_name)
+    if input("원본파일 삭제?(y/n): ") == "y":
+        os.remove(original)     #원본파일 삭제
+        os.remove(file_name)
+
 
 if __name__ == "__main__":
     print("갤창랭킹 made by hanel2527, mlp갤")
