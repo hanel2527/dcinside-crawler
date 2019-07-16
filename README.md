@@ -8,4 +8,4 @@ Python version 3.6.4
 
 필요 모듈: bs4, requests
 
-<https://github.com/hanel2527/dcinisde-crawler.ver.2'>갤창랭킹 2.0으로 업데이트 되었습니다</a>
+<a href='https://github.com/hanel2527/dcinisde-crawler.ver.2'>갤창랭킹 2.0으로 업데이트 되었습니다</a>
